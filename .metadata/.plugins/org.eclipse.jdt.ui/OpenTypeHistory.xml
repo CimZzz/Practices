@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=openfund-two/WebContent\/WEB-INF\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1458110337000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.creational.kit{AbstractFactory.java[AbstractFactory" modifiers="513" timestamp="1463881975000"/>
+<typeInfo handle="=Practice/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.naming.ldap(ExtendedRequest.class[ExtendedRequest" modifiers="1537" timestamp="1433812782000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.creational.kit{Product.java[Product" modifiers="513" timestamp="1463881130000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.creational.virtualconstructor{Product.java[Product" modifiers="513" timestamp="1464047488000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.creational.summary.builder{Builder.java[Builder" modifiers="1025" timestamp="1464083302000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.adapter{AbstractTarget.java[AbstractTarget" modifiers="1025" timestamp="1464139361000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.bridge{MaterialKit.java[MaterialKit" modifiers="1025" timestamp="1464152953000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.bridge{DeskFactory.java[DeskFactory" modifiers="1025" timestamp="1464152784000"/>
+<typeInfo handle="=Practice/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.awt(Button.class[Button" modifiers="33" timestamp="1433812782000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.composite{View.java[View" modifiers="1025" timestamp="1464171378000"/>
+<typeInfo handle="=Practice/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_51.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;javax.lang.model.type(DeclaredType.class[DeclaredType" modifiers="1537" timestamp="1433812782000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.decorator{Decorator.java[Decorator" modifiers="1025" timestamp="1464212583000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.flyweight{GraphicImpl.java[GraphicImpl" modifiers="1025" timestamp="1464261400000"/>
+<typeInfo handle="=Practice/src&lt;designpattern.structure.flyweight{GraphicGroup.java[GraphicGroup" modifiers="1025" timestamp="1464263258000"/>
+</typeInfoHistroy>

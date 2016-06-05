@@ -1,0 +1,9 @@
+package robot;
+
+public class Robot_Press {
+
+	public static void main(String[] args) {
+		Robot robot=new Robot();
+	}
+
+}

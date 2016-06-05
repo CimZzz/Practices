@@ -1,0 +1,26 @@
+package designpattern.behavioral.command;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class MarcoCommand implements Command{
+	private List<Command> commands;
+	
+	public MarcoCommand() {
+		commands = new LinkedList<>();
+	}
+	
+	addCommand(Command command)
+	{
+		
+	}
+	
+	@Override
+	public void execute() {
+		for(Command command : commands)
+		{
+			command.execute();
+		}
+		
+	}
+}

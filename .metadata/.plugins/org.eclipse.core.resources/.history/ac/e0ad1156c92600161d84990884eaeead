@@ -1,0 +1,23 @@
+package rmi;
+
+import java.net.MalformedURLException;
+import java.rmi.AlreadyBoundException;
+import java.rmi.Naming;
+import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+
+public class RmiServer {
+	public static final String RMI_URL = "rmi://localhost:10201/RMIObject";
+
+	public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException {
+		// TODO Auto-generated method stub
+		RmiObject rmiObj = new RmiObject();
+		
+		LocateRegistry.createRegistry(10201); 
+		
+		Naming.bind(RMI_URL,rmiObj);
+		
+		System.out.println("RMI 远程对象绑定成功");
+	}
+
+}

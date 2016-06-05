@@ -1,0 +1,30 @@
+package designpattern.behavioral.command;
+
+import java.util.LinkedList;
+
+public class HistortyList extends LinkedList<Command>{
+	private static HistortyList historty = new HistortyList();
+	private static HistortyList reDoHistory = new HistortyList();
+	
+	private HistortyList()
+	{
+		
+	}
+	
+	public static void execute(Command command)
+	{
+		synchronized (historty) {
+			reDoHistory.clear();
+			command.execute();
+			historty.push(command);
+		}
+	}
+	
+	public static void Unexecute()
+	{
+		synchronized (historty) {
+			Command command = historty.pop();
+			command.unExecute();
+		}
+	}
+}

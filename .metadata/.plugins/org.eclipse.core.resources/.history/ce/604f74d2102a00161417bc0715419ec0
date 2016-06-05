@@ -1,0 +1,9 @@
+package designpattern.behavioral.chainofresponsibility;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Application application = new Application();
+	}
+
+}

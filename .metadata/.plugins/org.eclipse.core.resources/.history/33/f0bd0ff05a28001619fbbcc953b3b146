@@ -1,0 +1,10 @@
+package designpattern.structure.proxy;
+
+public class ProtectionAndRemoteProxy implements IObejct{
+	public static final int ACCESS_PERMISSION = 1;
+	public static final int NOT_ACCESS_PERMISSION = 0;
+	
+	private static int permission = 0;
+	
+	private 
+}

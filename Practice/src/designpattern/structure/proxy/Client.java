@@ -1,0 +1,33 @@
+package designpattern.structure.proxy;
+
+import java.rmi.RemoteException;
+
+/**
+ * 测试：Proxy 模式的了解与使用
+ * Proxy（代理） 模式作用是在访问对象时进行控制：
+ * 1.Remote Proxy(远程代理) :如果对象存在于另一端而非本机时，使用 Remote Proxy 进行访问控制，这里使用Rmi，
+ * 服务器端将自己的操作封装至 RMI 接口 IObect中，客户端可以通过远程代理访问其中操作
+ * 
+ * 2.Protection Proxy(访问控制代理) : 根据客户端权限来访问代理方法
+ * 
+ * 3.Virtual Proxy(虚代理) : 如果代理的对象占有过多的内存，则只在需要的时候将其实例化，这里使用 
+ * Virtual Proxy 对对象进行封装，将需要实例化和无需实例化即可进行的操作实现，只有在需要的时候才会
+ * 将对象实例化
+ * 
+ * 4.Smart Reference(智能指针) ：相当于一个引用，主要功能是引用计数，在Java中作用不大
+ * 
+ * @author CimZzz
+ *
+ */
+public class Client {
+
+	public static void main(String[] args) throws RemoteException {
+		// TODO Auto-generated method stub
+		ProtectionAndRemoteProxy proxy1 = new ProtectionAndRemoteProxy();
+		proxy1.description();
+		
+		ProtectionAndRemoteProxy.setPermission(ProtectionAndRemoteProxy.ACCESS_PERMISSION);
+		proxy1.description();
+	}
+
+}

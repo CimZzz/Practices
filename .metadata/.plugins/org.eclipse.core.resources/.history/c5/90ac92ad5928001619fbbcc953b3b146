@@ -1,0 +1,40 @@
+package designpattern.structure.proxy;
+
+/**
+ * 关于RMI远程对象访问的相关类
+ * 作为RMI的服务端
+ * @author CimZzz
+ *
+ */
+public class RMIAbout {
+	private static final int PORT = 10101;
+	public static final String URL = "rmi://localhost:101010/ConcreteObject";
+	
+	public void static main(String[] args)
+	{
+		
+	}
+}
+
+/**
+ * RMI对象的共同接口
+ * @author CimZzz
+ *
+ */
+interface IObejct{
+	void description();
+}
+
+/**
+ * 具体类，也就是分享的类
+ * @author CimZzz
+ *
+ */
+class ConcreteObject implements IObejct{
+
+	@Override
+	public void description() {
+		System.out.println("Concreted Description");
+	}
+}
+

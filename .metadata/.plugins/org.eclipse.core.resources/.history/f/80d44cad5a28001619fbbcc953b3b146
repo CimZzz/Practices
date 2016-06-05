@@ -1,0 +1,9 @@
+package designpattern.structure.proxy;
+
+public class ProtectionAndRemoteProxy {
+	public static final int ACCESS_PERMISSION = 1;
+	
+	private static int permission = 0;
+	
+	
+}

@@ -1,0 +1,12 @@
+package designpattern.behavioral.chainofresponsibility;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Application application = new Application();
+		
+		Table table = new Table(application, Handler.HANDLE+1);
+		table = new Table(table, Handler.HANDLE+1);
+	}
+
+}

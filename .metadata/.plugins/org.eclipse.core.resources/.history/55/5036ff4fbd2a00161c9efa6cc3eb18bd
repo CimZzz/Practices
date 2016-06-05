@@ -1,0 +1,18 @@
+import java.util.Random;
+
+public class sdh {
+
+	public static void main(String[] args) {
+		Random ran=new Random();
+		switch(ran.nextInt(2))
+		{
+		case 0:
+			System.out.println("出去");
+			break;
+		case 1:
+			System.out.println("不出去");
+		}
+
+	}
+
+}

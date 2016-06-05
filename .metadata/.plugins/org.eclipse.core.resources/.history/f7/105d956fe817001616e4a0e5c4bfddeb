@@ -1,0 +1,25 @@
+package socket;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ * 
+ * @author CimZzz
+ *
+ */
+public class HttpSocket {
+
+	public static void main(String[] args) throws IOException {
+		ServerSocket socket = new ServerSocket(8999);
+		
+		Socket clientSocket = socket.accept();
+		
+		clientSocket.getInputStream();
+		
+		String line;
+		while()
+	}
+
+}

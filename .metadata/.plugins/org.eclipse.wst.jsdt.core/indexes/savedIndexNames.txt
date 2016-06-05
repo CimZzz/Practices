@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/CimZzz/Documents/EclipseProject/Practices/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3226267252.index
+3602522442.index
+2028383243.index
+254777826.index
+1274175514.index
+2085829366.index

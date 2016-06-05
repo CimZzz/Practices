@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;mysql.InsertData&apos; to &apos;OperateData&apos;&#x0A;- Original project: &apos;Practices&apos;&#x0A;- Original element: &apos;mysql.InsertData&apos;&#x0A;- Renamed element: &apos;mysql.OperateData&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;InsertData&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;mysql{InsertData.java[InsertData" matchStrategy="1" name="OperateData" qualified="false" references="true" similarDeclarations="false" stamp="1444663381689" textual="false" version="1.0"/>
+</session>

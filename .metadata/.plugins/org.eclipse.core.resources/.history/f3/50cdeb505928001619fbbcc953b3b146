@@ -1,0 +1,23 @@
+package designpattern.structure.proxy;
+
+/**
+ * 关于RMI远程对象访问的相关类
+ * @author CimZzz
+ *
+ */
+public class RMIAbout {
+	
+}
+
+/**
+ * RMI对象的共同接口
+ * @author CimZzz
+ *
+ */
+interface IObejct{
+	void description();
+}
+
+class ConcreteObject{
+	
+}

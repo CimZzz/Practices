@@ -1,0 +1,22 @@
+package designpattern.structure.proxy;
+
+import java.rmi.RemoteException;
+
+/**
+ * 测试：Proxy 模式的了解与使用
+ * 
+ * @author CimZzz
+ *
+ */
+public class Client {
+
+	public static void main(String[] args) throws RemoteException {
+		// TODO Auto-generated method stub
+		ProtectionAndRemoteProxy proxy1 = new ProtectionAndRemoteProxy();
+		proxy1.description();
+		
+		ProtectionAndRemoteProxy.setPermission(ProtectionAndRemoteProxy.ACCESS_PERMISSION);
+		proxy1.description();
+	}
+
+}

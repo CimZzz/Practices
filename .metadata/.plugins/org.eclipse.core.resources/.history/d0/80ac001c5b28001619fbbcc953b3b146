@@ -1,0 +1,25 @@
+package designpattern.structure.proxy;
+
+import java.rmi.RemoteException;
+
+import rmi.IObject;
+
+public class ProtectionAndRemoteProxy implements IObejct,ProxyInterface<IObject>{
+	public static final int ACCESS_PERMISSION = 1;
+	public static final int NOT_ACCESS_PERMISSION = 0;
+	
+	private static int permission = 0;
+
+	private IObejct Object;
+	
+	@Override
+	public void description() throws RemoteException {
+		getObject().decription();
+	}
+
+	@Override
+	public IObject getObject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

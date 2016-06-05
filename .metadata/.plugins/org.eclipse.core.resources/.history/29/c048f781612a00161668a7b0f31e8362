@@ -1,0 +1,45 @@
+package designpattern.behavioral.command;
+
+public class Client {
+	static StringBuilder stringBuilder = new StringBuilder();
+	
+	private static void displayString()
+	{
+		System.out.println(stringBuilder.toString());
+	}
+	
+	public static void main(String[] args){
+		MarcoCommand command = new MarcoCommand();
+		ACommand aCommand = new ACommand(stringBuilder);
+		Button button = new Button(aCommand);
+		
+		command.addCommand(aCommand);
+
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		
+		displayString();
+		
+		command.unExecute();
+		command.unExecute();
+		command.unExecute();
+		command.unExecute();
+		
+		displayString();
+		
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		button.click();
+		
+		displayString();
+		
+	}
+	
+}

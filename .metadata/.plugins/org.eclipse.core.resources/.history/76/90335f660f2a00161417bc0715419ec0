@@ -1,0 +1,14 @@
+package designpattern.behavioral.chainofresponsibility;
+
+public abstract class Handler {
+	
+	public boolean isHandle()
+	{
+		
+	}
+	
+	public void description()
+	{
+		
+	}
+}

@@ -1,0 +1,5 @@
+package designpattern.structure.proxy;
+
+public class ProxyInterface<T> {
+	T getObject();
+}

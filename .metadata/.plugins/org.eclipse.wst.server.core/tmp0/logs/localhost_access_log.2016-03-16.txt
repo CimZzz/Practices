@@ -1,0 +1,6 @@
+127.0.0.1 - - [16/Mar/2016:15:42:04 +0800] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [16/Mar/2016:16:06:16 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Mar/2016:16:06:17 +0800] "GET /openfund-two/fund/showfund.jsp HTTP/1.1" 200 476
+127.0.0.1 - - [16/Mar/2016:16:08:26 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Mar/2016:16:08:27 +0800] "GET /openfund-two/WEB-INF/classes/edu/fzu/openfund/dao/FundDaoJDBCImpl.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [16/Mar/2016:16:08:39 +0800] "GET /openfund-two/fund/showfund.jsp HTTP/1.1" 200 8216

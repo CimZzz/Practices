@@ -1,0 +1,35 @@
+package designpattern.behavioral.command;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Random;
+
+public class ACommand implements Command{
+	private LinkedList<Integer> indexList;
+	private StringBuilder builder;
+	
+	public ACommand(StringBuilder builder) {
+		indexList = new LinkedList<>();
+		this.builder = builder;
+	}
+	
+	
+	
+	@Override
+	public void execute() {
+		Random random = new Random();
+		
+		builder.append(random.nextInt(10));
+		
+		indexList.add(builder.length()-1);
+	}
+	
+	@Override
+	public void unExecute()
+	{
+		if(indexList.size() == 0)
+			return;
+		
+		builder.deleteCharAt(indexList.pop());
+	}
+}
